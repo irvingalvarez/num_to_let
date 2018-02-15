@@ -18,7 +18,7 @@ elif (num <100):
 
     unid = num% 10;
     #math.floor -> obtiene la parte entera de la division num/10
-    #luego ese resultado lo convertimos a entero,
+    #luego ese resultado lo convertimos a entero
     dec = int(math.floor(num/10))
     if (unid == 0):
         print decenas[dec-2]
