@@ -6,7 +6,7 @@ especiales = ["eleven", "twelve","thirteen","fourteen", "fifteen",
 decenas = ["twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
 
 #El dato ingresado lo convierte a entero y lo almacena en la variable num
-num = int(raw_input("Ingrese un numero entre 0-99: "))
+num = int(raw_input("Enter a number between 0-99: "))
 
 if (num >=0 and num <11):
     print unidades[num]
@@ -25,4 +25,4 @@ elif (num <100):
     else:
         print decenas[dec-2], unidades[unid]
 else:
-    print "El numero debe ser menor a 100"
+    print "The number must be minor than 100"
