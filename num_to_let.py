@@ -23,6 +23,6 @@ elif (num <100):
     if (unid == 0):
         print decenas[dec-2]
     else:
-        print decenas[dec-2],unidades[unid]
+        print decenas[dec-2], unidades[unid]
 else:
     print "El numero debe ser menor a 100"
